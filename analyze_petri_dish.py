@@ -122,6 +122,11 @@ def analyze_petri_dish_save_result(path_before, path_after):
         plt.axis('off')
 
     plt.tight_layout()
+
+    save_path = 'comparison_result_all.png'
+    plt.savefig(save_path, bbox_inches='tight', dpi=150)
+    print(f"4枚組み合わせた画像を保存しました: {save_path}")
+
     plt.show()
 
 
