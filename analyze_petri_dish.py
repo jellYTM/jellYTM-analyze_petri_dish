@@ -126,4 +126,4 @@ def analyze_petri_dish_save_result(path_before, path_after):
 
 
 # 実行
-analyze_petri_dish_save_result('PXL_20251118_061920040_clipped.jpg', 'PXL_20251119_052741717_clipped.jpg')
+analyze_petri_dish_save_result('before.jpg', 'after.jpg')
